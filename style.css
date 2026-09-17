@@ -530,6 +530,157 @@ li .main_nav_link:hover{
     font-size: 12px;
 }
 
+/* Club TecStore Section */
+.tecstore_club_container{
+    padding: 60px 20px;
+    text-align: center;
+    width: 100%;
+}
+
+.club_title{
+    font-size: 32px;
+    color: #1F3A5F;
+    font-weight: 700;
+}
+
+.club_description{
+    line-height: 22px;
+    margin-top: 8px;
+    font-size: 14px;
+    color: #666;
+}
+
+.benefits_container{
+    margin-top: 40px;
+    padding: 30px 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    background-color: transparent;
+}
+
+.benefit{
+    padding: 25px 20px;
+    flex: 1 1 220px;
+    max-width: 280px;
+    background-color: #f7f7f7;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.benefit:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+}
+
+.benefit_icon {
+    color: #FFB703;
+    margin-bottom: 12px;
+}
+
+.benefit_title{
+    margin-bottom: 8px;
+    font-size: 18px;
+    color: #1F3A5F;
+    font-weight: 600;
+}
+
+.benefit_description{
+    font-size: 13px;
+    color: #747373;
+    line-height: 18px;
+}
+
+.club_register_container{
+    padding: 0 20px 45px 20px;
+    width: 100%;
+}
+
+.club_banner{
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 15px;
+    background-color: #1F3A5F;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+}
+
+.club_register_text{
+    padding: 0;
+    width: 50%;
+}
+
+@media (max-width: 768px) {
+    .club_register_text { width: 100%; text-align: center; }
+    .club_title_text { text-align: center; }
+}
+
+.banner_category{
+    margin-bottom: 5px;
+    color: #FFB703;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.club_title_text{
+    text-align: left;
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+}
+
+.club_banner_description{
+    padding-top: 8px;
+    font-size: 15px;
+    color: #d1d1d1;
+}
+
+.club_mail_input{
+    margin: 0;
+    padding: 0;
+    width: 45%;
+}
+
+@media (max-width: 768px) {
+    .club_mail_input { width: 100%; margin-top: 20px; }
+}
+
+.mail_input{
+    float: right;
+    width: 800px;
+    border: none;
+    border-radius: 30px;
+    padding: 25px;
+    background-color: ghostwhite;
+}
+
+.mail_input{
+    width: 100%;
+    float: none;
+    border: none;
+    border-radius: 30px;
+    padding: 16px 25px;
+    background-color: #ffffff;
+    font-size: 14px;
+    outline: none;
+}
+
+.mail_input::placeholder{
+    padding: 0;
+    font-size: 14px;
+    color: #a8a8a8;
+}
+
 /* Opinion Section */
 .opinions_section{
     padding: 45px 20px;
